@@ -1,3 +1,5 @@
+# Intended to calculate word/phrase counts and create word clouds
+
 - To create word counts:
 
 ```python word_clouds.py --input transcripts ```
