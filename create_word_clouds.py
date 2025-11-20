@@ -3,9 +3,9 @@ from wordcloud import WordCloud
 import matplotlib.pyplot as plt
 
 # Load CSV
-csv_path = "phrases_ngram1.csv"   # change this
+csv_path = "word_clouds.csv"   # change this
 df = pd.read_csv(csv_path)
-df = df.iloc[:10, :]
+#df = df.iloc[:10, :]
 
 # Convert two columns into a dictionary: {"data": 347, "information": 74, ...}
 freq_dict = dict(zip(df["phrase"], df["count"]))
